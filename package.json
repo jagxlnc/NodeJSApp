@@ -1,0 +1,25 @@
+{
+  "name": "StudentRegistration",
+  "version": "1.0.0",
+  "description": "Node.js Application using MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "crud",
+    "nodeJS",
+    "mongodb"
+  ],
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.3",
+    "express-validator": "^3.2.0",
+    "method-override": "^2.3.9",
+    "mongodb": "^2.2.28"
+  }
+}
